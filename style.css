@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 100px 0 100px;
+}
+
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+
+.container .heading h1{
+    font-size: 3rem;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+
+.container .heading h1 span{
+    color: pink;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32.5%;
+}
+
+.container .box .pictures img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+   
+}
+
+.container .letter{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    max-width: 1000px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #444;
+    /* background: rgba(255, 182, 193, 0.2);  */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+
