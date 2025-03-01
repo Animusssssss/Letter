@@ -96,4 +96,31 @@
     }
 }
 
+@media (max-width: 768px) {
+    .container {
+        margin: 20px; /* Reduce margin for small screens */
+    }
+
+    .container .heading {
+        width: 90%; /* Make heading fit smaller screens */
+    }
+
+    .container .heading h1 {
+        font-size: 2rem; /* Reduce font size */
+    }
+
+    .container .box {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center align */
+    }
+
+    .container .box .pictures {
+        width: 90%; /* Adjust image width */
+    }
+
+    .container .letter {
+        font-size: 1.4rem; /* Reduce text size */
+        margin: 50px 20px; /* Reduce margins */
+    }
+}
 
